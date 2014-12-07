@@ -2,19 +2,20 @@
 <!--[if lt IE 7]>      <html lang="en" ng-app="myApp" class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
 <!--[if IE 7]>         <html lang="en" ng-app="myApp" class="no-js lt-ie9 lt-ie8"> <![endif]-->
 <!--[if IE 8]>         <html lang="en" ng-app="myApp" class="no-js lt-ie9"> <![endif]-->
-<!--[if gt IE 8]><!--> <html lang="en" ng-app="sdl_App" class="no-js"> <!--<![endif]-->
+<!--[if gt IE 8]><!--> <html lang="en" ng-app="sdl_App"> <!--<![endif]-->
 <head>
     <script src="js/angular.min.js"></script>
     <script src="js/sdl_todo.js"></script>
 </head>
-<body>
+<body ng-controller="BlogController as sdl">
      
-      <h2>{{'First Step to use Angular'}}</h2>
+      <h2>{{sdl.Angular.name}}</h2>
       <p>Attention: </p>
-      <p>• Between the '{{' and '}}', must add two '' .</p>
+      <p>• Between the double '{' and double '}', must add two '' .</p>
       <p>• The way to create a ng module just like this: var app = angular.module('your_module_name', []); Then attach the module to HTML page with ng-app="your_module_name"</p>
       <p>• After the ',' '•' or '.' , leave a blank Space will look much better.</p>
       <p>• Give two blank Spaces to '=', before and after.</p>
+      <p>• Google's CDN do not play well in China.</p>
       
 </body>
 </body>

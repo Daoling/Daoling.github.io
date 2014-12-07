@@ -1,1 +1,1 @@
-var app = angular.module('sdl_module', []);
+var app = angular.module('sdl_App', []);

@@ -1,8 +1,14 @@
-(function() {
+(function(angular) {
   'use strict';
-var Angular_content = { name:'First Step to use Angular', content:''};
 var app = angular.module('sdl_App', [])
-app.controller('Blog', function($scope, $filter) {
-  $scope.Angular = Angular_content;
+app.controller('Angular', function($scope) {
+  $scope.Articles = [{
+  name:'Closure',
+  content:' the function defined in the closure remembers the environment in which it was created.'
+  },{
+  name:'Use Strict',
+  content:'During the javascript, use strict means: use a variable without declaring it, is not allowed.'
+  },
+  ];
 });
-})();
+})(window.angular);

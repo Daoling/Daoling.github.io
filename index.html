@@ -6,20 +6,12 @@
     <script src="js/sdl_todo.js"></script>
 </head>
 <body ng-app="sdl_App">
-	<div ng-controller="Blog">
- <h3>{{ Angular.name }}</h3>
- {{ Angular }}
- 
-</div>
-     <h2>closure<h2>
-      <p>At the first of .js, always use (function(){}，closures. the function defined in the closure 'remembers' the environment in which it was created.  </p>
-      <h2>{{'First Step to use Angular'}}</h2>
-      <p>Attention: </p>
-      <p>• Between the double  and '}}', must add two '' .</p>
-      <p>• The way to create a ng module just like this: var app = angular.module('your_module_name', []); Then attach the module to HTML page with ng-app="your_module_name"</p>
-      <p>• After the ',' '•' or '.' , leave a blank Space will look much better.</p>
-      <p>• Give two blank Spaces to '=', before and after.</p>
-      
+	<div ng-controller="Angular">
+    <div ng-repeat="Article in Articles">
+       <h3>{{Article.name}}</h3>
+       <p>{{Article.content}}</p>
+    </div>
+  </div>   
 </body>
 </body>
 </html>

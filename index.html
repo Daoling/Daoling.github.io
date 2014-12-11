@@ -4,12 +4,13 @@
 	<meta charset="UTF-8">
     <script src="js/angular.min.js"></script>
     <script src="js/sdl_todo.js"></script>
+    <link href="css/main.css" rel="stylesheet">
 </head>
 <body ng-app="sdl_App">
-	<div ng-controller="Angular">
+  <div ng-controller="Angular">
     <div ng-repeat="Article in Articles">
-       <h3>{{Article.name}}</h3>
-       <p>{{Article.content}}</p>
+       <h3 class="middle-name">{{Article.name}}</h3>
+       <p class="middle-content">{{Article.content}}</p>
     </div>
   </div>   
 </body>

@@ -42,8 +42,14 @@ app.controller('Angular', function($scope) {
   name:'Hashmap',
   content:'•••••••••••Need to explore.'
   },{
-  name:'',
-  content:''
+  name:'IaaS, PaaS, SaaS',
+  content:'•••••••••••Need to explore.'
+  },{
+  name:'Trick to make gradient descent work well.(1)',
+  content:'• Use Feature Scaling, make gradient descent run much faster and converge in a lot few other iterations. It means get every feature into approximately a -1<x<1 range.'
+  },{
+  name:'Trick to make gradient descent work well.(2)',
+  content:'learning rate alpha. If α is too small: slow convergence. If α is too large : J(θ) may not decrease on every iteration; may not converge.To choose  α, try …, 0.001, 0.003, 0.01, 0.03, 0.1, 0.3, 1….'
   },
   ];
 });

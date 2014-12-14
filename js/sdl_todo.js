@@ -50,6 +50,21 @@ app.controller('Angular', function($scope) {
   },{
   name:'Trick to make gradient descent work well.(2)',
   content:'learning rate alpha. If α is too small: slow convergence. If α is too large : J(θ) may not decrease on every iteration; may not converge.To choose  α, try …, 0.001, 0.003, 0.01, 0.03, 0.1, 0.3, 1….'
+  },{
+  name:'Normal Equation',
+  content:'θ = (XTX)-1XTY.'
+  },{
+  name:'When to use Gradient Descent, or Normal Equation',
+  content:'Gradient Descent: 1.Need to choose α. 2.Needs many iterations. 3.Work well even when n is large.    Normal Equation: 1.No need to choose α.  2.Dont’t need to iterate.  3.Need to compute  (XTX)-1 (sometimes it is no answer)    4.Slow if n is very large. (n>10000)'
+  },{
+  name:'',
+  content:''
+  },{
+  name:'',
+  content:''
+  },{
+  name:'',
+  content:''
   },
   ];
 });

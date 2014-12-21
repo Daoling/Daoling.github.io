@@ -78,3 +78,92 @@ app.controller('Angular', function($scope) {
   ];
 });
 })(window.angular);
+
+Show ="no";  
+var OffX = -250;  
+var PosX =  50;  
+var PosY =  50;  
+var speed        = 5;  
+var increment    = 5;  
+var incrementNS4 = 5;
+var is_NS = navigator.appName=="Netscape";  
+var is_Ver = parseInt(navigator.appVersion);  
+var is_NS4 = is_NS&&is_Ver>=4&&is_Ver<5;  
+var is_NS5up = is_NS&&is_Ver>=5;  
+
+var MenuX = OffX;  
+var SelX = PosX;  
+var sPosX = PosX;  
+var sOffX = OffX;  
+
+if (Show == "yes") {  
+sPosX = OffX;  
+sOffX = PosX;  
+MenuX = sOffX;  
+SelX = sPosX;  
+}  
+
+if (is_NS4) {  
+increment = incrementNS4;  
+Lq = "document.layers.";  
+Sq = "";  
+eval(Lq+'menuSelect'+Sq+'.left=sPosX');  
+eval(Lq+'menuShow'+Sq+'.left=sOffX');  
+eval(Lq+'menuSelect'+Sq+'.top=PosY');  
+eval(Lq+'menuShow'+Sq+'.top=PosY');  
+} else {  
+Lq = "document.all.";  
+Sq = ".style";  
+document.getElementById('menuSelect').style.left = sPosX+"px";  
+document.getElementById('menuShow').style.left = sOffX+"px";  
+document.getElementById('menuSelect').style.top = PosY+"px";  
+document.getElementById('menuShow').style.top = PosY+"px";  
+}    
+
+function moveOnMenu() {  
+if (MenuX < PosX) {   
+MenuX = MenuX + increment;  
+if (is_NS5up) {  
+document.getElementById('menuShow').style.left = MenuX+"px";  
+} else {  
+eval(Lq+'menuShow'+Sq+'.left=MenuX');  
+}  
+setTimeout('moveOnMenu()',speed);  
+   }  
+}  
+
+function moveOffMenu() {  
+if (MenuX > OffX) {   
+MenuX = MenuX - increment;  
+if (is_NS5up) {  
+document.getElementById('menuShow').style.left = MenuX+"px";  
+} else {  
+eval(Lq+'menuShow'+Sq+'.left=MenuX');  
+}  
+setTimeout('moveOffMenu()',speed);  
+   }  
+}  
+
+function moveOffSelector() {  
+if (SelX > OffX) {   
+SelX = SelX - increment;  
+if (is_NS5up) {  
+document.getElementById('menuSelect').style.left = SelX+"px";  
+} else {  
+eval(Lq+'menuSelect'+Sq+'.left=SelX');  
+}  
+setTimeout('moveOffSelector()',speed);  
+   }  
+}  
+
+function moveOnSelector() {  
+if (SelX < PosX) {   
+SelX = SelX + increment;  
+if (is_NS5up) {  
+document.getElementById('menuSelect').style.left = SelX+"px";  
+} else {  
+eval(Lq+'menuSelect'+Sq+'.left=SelX');  
+}  
+setTimeout('moveOnSelector()',speed);  
+   }  
+}  

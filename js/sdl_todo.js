@@ -1,8 +1,22 @@
 (function(angular) {
   'use strict';
 var app = angular.module('sdl_App', [])
+app.controller('Menu', function($scope) {
+  $scope.Lables = [{
+  content:'• Javascript'
+  },{
+  content:'• Css'
+  },{
+  content:'• HTML'
+  },{
+  content:'• Machine learning'
+  },{
+  content:'• Photography'
+  },
+  ];
+});
 app.controller('Angular', function($scope) {
-  $scope.Articles = [{
+  $scope.Notes = [{
   name:'Closure',
   content:'<p>• the function defined in the closure remembers the environment in which it was created. See more: http://marcofranssen.nl/writing-modular-javascript-without-polluting-the-global-namespace/</p>'
   },{

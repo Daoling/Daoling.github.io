@@ -2,36 +2,30 @@
 <html lang="en">
 <head>
    	<meta charset="UTF-8">
-    
     <link href="css/main.css" rel="stylesheet">
+    <script src="js/angular.min.js"></script>
 </head>
 <body ng-app="sdl_App">
-  <div id="menuSelect" style=""align="right"> <a href="#" onClick="moveOnMenu();moveOffSelector()">  <img src="img/menu.jpg"></a></div>  
-  <div id="menuShow" style="" align="center"> <a href="#" onClick="moveOffMenu();moveOnSelector()"> click here to close</a>
-     <div id="outerSidebar">
-        <div id="sidebar">                     
-           <div id="links" class="module">
-                <div class="modTop"></div>
-                <div class="modBody">
-                    <ul><li><a href='http://littlelinda.blog101.fc2.com/' target='_blank'>Front End</a></li><li><a href='http://pixlr.com/editor/' target='_blank'>Machine Learning</a></li><li><a href='http://snowflakes.barkleyus.com/index.html' target='_blank'><img src='http://filer.blogbus.com/5968673/5968673_12828103960.jpg' alt='' /></a></li><li><a href='http://www.myoats.com/create.aspx' target='_blank'><img src='http://filer.blogbus.com/5968673/5968673_1282810389n.jpg' alt='' /></a></li><li><a href='http://www.ferryhalim.com/orisinal/g3/bells.htm' target='_blank'><img src='http://filer.blogbus.com/5968673/5968673_1282810372l.jpg' alt='' /></a></li><li><a href='http://www.zefrank.com/scribbler/scribblertoo/' target='_blank'><img src='http://filer.blogbus.com/5968673/5968673_12964493658.jpg' alt='' /></a></li></ul>
-                </div>
-                <div class="modBottom"></div>
-            </div>                                        
-        </div>                               
-     </div>
-  </div>
-  <h1 class="description">Use less code, Do more thing.</h1>
+  <h1 class="description">Enjoy time，Step by Step.</h1>
   <h2 class="author">---Daoling's Note</h2>
+  <div id="menu">
+    <div id="menuSelect" style=""align="right"> <a href="#" onClick="moveOnMenu();moveOffSelector()"><img src="img/menu.jpg"></a></div>  
+    <div id="menuShow" style="" align="center"> <a href="#" onClick="moveOffMenu();moveOnSelector()"> click here to close</a>
+      <div ng-controller="Menu">
+        <div ng-repeat="Lable in Lables">
+           <h3 class="lebel-content">{{Lable.content}}</h3>
+        </div>
+      </div>           
+    </div>
+  </div>
   <div id="container">
     <div ng-controller="Angular">
-      <div ng-repeat="Article in Articles">
-         <h3 class="middle-name">{{Article.name}}</h3>
-         <p class="middle-content">{{Article.content}}</p>
+      <div ng-repeat="Note in Notes">
+         <h3 class="Note-name">{{Note.name}}</h3>
+         <p class="Note-content">{{Note.content}}</p>
       </div>
     </div>   
   </div>
 </body>
 </html>
-
-<script src="js/angular.min.js"></script>
 <script src="js/sdl_todo.js"></script>

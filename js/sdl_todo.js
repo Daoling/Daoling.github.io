@@ -181,3 +181,7 @@ eval(Lq+'menuSelect'+Sq+'.left=SelX');
 setTimeout('moveOnSelector()',speed);  
    }  
 }  
+
+function page1() {  
+    document.getElementById('container').innerHTML="<img src='img/photo1.jpg'>";
+}  

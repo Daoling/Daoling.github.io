@@ -183,5 +183,5 @@ setTimeout('moveOnSelector()',speed);
 }  
 
 function page1() {  
-    document.getElementById('container').innerHTML="<img src='img/photo1.jpg'>";
+    document.getElementById('container').innerHTML="<img class='photography' src='img/photo1.jpg'>";
 }  

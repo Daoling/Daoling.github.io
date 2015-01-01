@@ -45,3 +45,12 @@
 	width: 65%;
 	margin: 0 auto
 }
+
+.photography {
+	position:relative;
+    width: 800px;
+    left:50%;
+	margin-left: -400px;
+
+
+}

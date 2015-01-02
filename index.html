@@ -1,7 +1,11 @@
 <!doctype html>
 <html lang="en">
 <head>
+    <title>Daoling‘s Notes</title>
    	<meta charset="UTF-8">
+    <meta name="keywords" content="Daoling Song, Faustpeace, 宋道灵, mobile, blog, notes" />
+    <meta name="description" content = "Daoling's learning notes will be updated daily ;)" />
+    
     <link href="css/main.css" rel="stylesheet">
     <script src="js/angular.min.js"></script>
 </head>
@@ -13,7 +17,7 @@
     <div id="menuShow" style="" align="center"> <a href="#" onClick="moveOffMenu();moveOnSelector()"> click here to close</a>
       <div ng-controller="Menu">
         <div ng-repeat="Lable in Lables">
-           <h3 class="lebel-content">{{Lable.content}}</h3>
+           <h3 class="lebel-content" onclick>{{Lable.content}}</h3>
         </div>
       </div>           
     </div>

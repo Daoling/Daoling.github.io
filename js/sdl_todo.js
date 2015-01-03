@@ -18,7 +18,7 @@ app.controller('Menu', function($scope) {
 app.controller('Angular', function($scope) {
   $scope.Notes = [{
   name:'Closure',
-  content:'<p>• the function defined in the closure remembers the environment in which it was created. See more: http://marcofranssen.nl/writing-modular-javascript-without-polluting-the-global-namespace/</p>'
+  content:'• the function defined in the closure remembers the environment in which it was created. See more: http://marcofranssen.nl/writing-modular-javascript-without-polluting-the-global-namespace/'
   },{
   name:'Use Strict',
   content:'• During the javascript, use strict means: use a variable without declaring it, is not allowed. See more http://www.w3schools.com/js/js_strict.asp.'
@@ -37,6 +37,9 @@ app.controller('Angular', function($scope) {
   },{
   name:'Css Middle Tip',
   content:'Add margin:0 auto, means middle.'
+  },{
+  name:'Why Doctype',
+  content:'The <!DOCTYPE> declaration must be the very first thing in your HTML document, before the <html> tag. The <!DOCTYPE> declaration is not an HTML tag; it is an instruction to the web browser about what version of HTML the page is written in.'
   },{
   name:'No stylesheet, No link',
   content:'••••••••••Why, still confused.'
@@ -92,6 +95,8 @@ app.controller('Angular', function($scope) {
   ];
 });
 })(window.angular);
+
+
 
 Show ="no";  
 var OffX = -250;  
@@ -185,3 +190,8 @@ setTimeout('moveOnSelector()',speed);
 function page1() {  
     document.getElementById('container').innerHTML="<img class='photography' src='img/photo1.jpg'>";
 }  
+
+function page2() {  
+    document.getElementById('container').innerHTML="<img class='photography' src='img/photo1.jpg'>";
+}  
+

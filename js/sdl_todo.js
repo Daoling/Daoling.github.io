@@ -29,6 +29,9 @@ app.controller('Angular', function($scope) {
   name:' Google CDN',
   content:'• Google CDN do not play well in China. Abandon, use Relative Path.'
   },{
+  name:' Scope',
+  content:'•  Long way to displore.'
+  },{
   name:'JS object',
   content:'• JS object just hash map'
   },{

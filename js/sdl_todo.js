@@ -42,8 +42,7 @@ app.controller('Angular', function($scope) {
   content:'Add margin:0 auto, means middle.'
   },{
   name:'Why Doctype',
-  content:'The <!DOCTYPE> declaration must be the very first thing in your HTML document, before the <html> tag. 
-  The <!DOCTYPE> declaration is not an HTML tag; it is an instruction to the web browser about what version of HTML the page is written in.'
+  content:'The <!DOCTYPE> declaration must be the very first thing in your HTML document, before the <html> tag. The <!DOCTYPE> declaration is not an HTML tag; it is an instruction to the web browser about what version of HTML the page is written in.'
   },{
   name:'No stylesheet, No link',
   content:'••••••••••Why, still confused.'

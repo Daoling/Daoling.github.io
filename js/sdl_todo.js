@@ -7,8 +7,6 @@ app.controller('Menu', function($scope) {
   },{
   content:'• Css'
   },{
-  content:'• HTML'
-  },{
   content:'• Machine learning'
   },{
   content:'• Photography'

@@ -18,6 +18,9 @@ app.controller('Angular', function($scope) {
   name:'Closure',
   content:'• the function defined in the closure remembers the environment in which it was created. See more: http://marcofranssen.nl/writing-modular-javascript-without-polluting-the-global-namespace/'
   },{
+  name:'transparent',
+  content:'• Specifies that the background color should be transparent. This is default.'
+  },{
   name:'Use Strict',
   content:'• During the javascript, use strict means: use a variable without declaring it, is not allowed. See more http://www.w3schools.com/js/js_strict.asp.'
   },{

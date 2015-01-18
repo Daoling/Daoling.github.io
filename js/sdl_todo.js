@@ -18,6 +18,9 @@ app.controller('Angular', function($scope) {
   name:'Closure',
   content:'• the function defined in the closure remembers the environment in which it was created. See more: http://marcofranssen.nl/writing-modular-javascript-without-polluting-the-global-namespace/'
   },{
+  name:'display:flex',
+  content:'• Displays an element as an block-level flex container. New in CSS3'
+  },{
   name:'transparent',
   content:'• Specifies that the background color should be transparent. This is default.'
   },{

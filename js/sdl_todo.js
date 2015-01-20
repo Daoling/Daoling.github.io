@@ -21,6 +21,9 @@ app.controller('Angular', function($scope) {
   name:'display:flex',
   content:'• Displays an element as an block-level flex container. New in CSS3'
   },{
+  name:'directive',
+  content:'•  tell AngularJS HTML compiler ($compile) to attach a specified behavior to that DOM element or even transform the DOM element and its children.'
+  },{
   name:'transparent',
   content:'• Specifies that the background color should be transparent. This is default.'
   },{

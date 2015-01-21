@@ -46,7 +46,7 @@ app.controller('Angular', function($scope) {
   content:'• window.ABC scopes the ABC variable to window scope (effectively global.)  • var ABC scopes the ABC variable to whatever function the ABC variable resides in.'
   },{
   name:'Css Middle Tip',
-  content:'Add margin:0 auto, means middle.'
+  content:'Add margin:0 auto, means middle.  if img, must add display:block; and add width:'
   },{
   name:'Why Doctype',
   content:'The <!DOCTYPE> declaration must be the very first thing in your HTML document, before the <html> tag. The <!DOCTYPE> declaration is not an HTML tag; it is an instruction to the web browser about what version of HTML the page is written in.'

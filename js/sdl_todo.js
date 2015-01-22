@@ -15,6 +15,12 @@ app.controller('Menu', function($scope) {
 });
 app.controller('Angular', function($scope) {
   $scope.Notes = [{
+  name:':before Selector ',
+  content:'• Insert content before every selected element“s content:'
+  },{
+  name:'Closure',
+  content:'• the function defined in the closure remembers the environment in which it was created. See more: http://marcofranssen.nl/writing-modular-javascript-without-polluting-the-global-namespace/'
+  },{
   name:'Closure',
   content:'• the function defined in the closure remembers the environment in which it was created. See more: http://marcofranssen.nl/writing-modular-javascript-without-polluting-the-global-namespace/'
   },{

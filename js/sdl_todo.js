@@ -18,8 +18,8 @@ app.controller('Angular', function($scope) {
   name:':before Selector ',
   content:'• Insert content before every selected element“s content:'
   },{
-  name:'Closure',
-  content:'• the function defined in the closure remembers the environment in which it was created. See more: http://marcofranssen.nl/writing-modular-javascript-without-polluting-the-global-namespace/'
+  name:'text-decoration',
+  content:'• cancel blue in <a>'
   },{
   name:'Closure',
   content:'• the function defined in the closure remembers the environment in which it was created. See more: http://marcofranssen.nl/writing-modular-javascript-without-polluting-the-global-namespace/'

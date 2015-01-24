@@ -73,7 +73,7 @@ app.controller('Angular', function($scope) {
   content:'• Matrix multiplication satisfies the rules (AB)C = A(BC) (associativity), and (A+B)C = AC+BC as well as C(A+B) = CA+CB (left and right distributivity), but AB ≠ BA,'
   },{
   name:'Hashmap',
-  content:'••••••Need to explore.'
+  content:'••••••.Need to explore.'
   },{
   name:'IaaS, PaaS, SaaS',
   content:'••••••。Need to explore.'

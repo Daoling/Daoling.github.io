@@ -22,7 +22,7 @@ app.controller('Angular', function($scope) {
   content:'• cancel blue in <a>'
   },{
   name:'ng-show',
-  content:'• aha '
+  content:'• aha ~'
   },{
   name:'Closure',
   content:'• the function defined in the closure remembers the environment in which it was created. See more: http://marcofranssen.nl/writing-modular-javascript-without-polluting-the-global-namespace/'

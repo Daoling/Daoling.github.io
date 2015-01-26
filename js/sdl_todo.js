@@ -24,6 +24,9 @@ app.controller('Angular', function($scope) {
   name:'ng-show',
   content:'• aha ~'
   },{
+  name:'ng-modal',
+  content:'• $ionicModal.fromTemplateUrl("chatList.html", function(modal) {scope.chatListModal = modal; });'
+  },{
   name:'Closure',
   content:'• the function defined in the closure remembers the environment in which it was created. See more: http://marcofranssen.nl/writing-modular-javascript-without-polluting-the-global-namespace/'
   },{

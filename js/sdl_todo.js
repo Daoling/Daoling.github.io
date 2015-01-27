@@ -24,6 +24,9 @@ app.controller('Angular', function($scope) {
   name:'ng-show',
   content:'• aha ~'
   },{
+  name:'css3 animations',
+  content:'•  -webkit-animation: myfirst 5s; /* Chrome, Safari, Opera */animation: myfirst 5s;'
+  },{
   name:'ng-modal',
   content:'• $ionicModal.fromTemplateUrl("chatList.html", function(modal) {scope.chatListModal = modal; });'
   },{

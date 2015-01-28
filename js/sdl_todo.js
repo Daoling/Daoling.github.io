@@ -21,6 +21,9 @@ app.controller('Angular', function($scope) {
   name:'text-decoration',
   content:'• cancel blue in <a>'
   },{
+  name:'Animation again',
+  content:'• var el = $("#centerRadar"); el.before( el.clone(true) ).remove();'
+  },{
   name:'ng-show',
   content:'• aha ~'
   },{

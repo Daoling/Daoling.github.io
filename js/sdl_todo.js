@@ -27,6 +27,9 @@ app.controller('Angular', function($scope) {
   name:'ng-show',
   content:'• aha ~'
   },{
+  name:'class="modal"',
+  content:'• In ionic, use class="modal", It will popup'
+  },{
   name:'css3 animations',
   content:'•  -webkit-animation: myfirst 5s; /* Chrome, Safari, Opera */animation: myfirst 5s;'
   },{

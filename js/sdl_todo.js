@@ -94,7 +94,7 @@ app.controller('Angular', function($scope) {
   content:'•••••.Need to explore.'
   },{
   name:'IaaS, PaaS, SaaS',
-  content:'••••••。Need to explore.'
+  content:'••••。Need to explore.'
   },{
   name:'Trick to make gradient descent work well.(1)',
   content:'• Use Feature Scaling, make gradient descent run much faster and converge in a lot few other iterations. It means get every feature into approximately a -1<x<1 range.'

@@ -21,6 +21,9 @@ app.controller('Angular', function($scope) {
   name:'text-decoration',
   content:'• cancel blue in <a>'
   },{
+  name:'Add link icon in chrome Tab',
+  content:' <link rel="icon" type="image/x-icon" href="https://assets-cdn.github.com/favicon.ico">'
+  },{
   name:'body default',
   content:'• body { margin: 8px; line-height: 1.12 }  LINK:http://www.cnblogs.com/dragontappi/archive/2011/04/08/2009991.html '
   },{

@@ -21,6 +21,9 @@ app.controller('Angular', function($scope) {
   name:'text-decoration',
   content:'• cancel blue in <a>'
   },{
+  name:'dependency injection ',
+  content:"As you noticed, dependency injection (DI) is at the core of AngularJS, so it's important for you to understand a thing or two about how it works. When the application bootstraps, Angular creates an injector that will be used to find and inject all of the services that are required by your app. The injector itself doesn't know anything about what $http or $route services do. In fact, the injector doesn't even know about the existence of these services unless it is configured with proper module definitions."
+  },{
   name:'Add link icon in chrome Tab',
   content:' <link rel="icon" type="image/x-icon" href="https://assets-cdn.github.com/favicon.ico">'
   },{

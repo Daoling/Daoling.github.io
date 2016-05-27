@@ -1,19 +1,32 @@
-# estivo
-Estivo is a blogging theme for Jekyll that I created for my personal use, until I changed my mind, oh designers...
-It runs on jekyll v.2.5.3 and supports SASS out of the box. The code is messy and hacked together, definitely not something you'd want to show to the public, the SASS code is also just CSS, but it's there if you want to hack it away. A little snippet is also visible on my [dribbble page](http://drbl.in/nyKl)
+# About
 
-It's open sourced under the MIT license and can be download from the GitHub project.
+This is my blog based on jekyll. And I change the style and interactive. If you want to use this model of the blog. **Please give a star at this repository**. Then you can clone it as your blog model.
 
-### Usage
+You can visit [here](http://gaohaoyang.github.io) to see this blog.
 
-`
-jekyll s --host=0.0.0.0
-`
+---
 
-### Support
+这是我的博客，基于 jekyll。我改了所有默认的样式和交互。如果你想使用这个博客模板。**请先在这个仓库上点个star吧**，这也是对我的肯定和鼓励，谢谢了。然后你可以克隆这个仓库用作你自己的博客。
 
-I don't provide support, and I don't intend on updating it at all, but feel free to fork it, and make something awesome out of it.
+博客访问地址：[点击这里](http://gaohaoyang.github.io)
 
-### License
+**使用时请注明模板来源:  Jekyll theme by [Gaohaoyang](https://github.com/Gaohaoyang/gaohaoyang.github.io)**
 
-Released under MIT by [@fffabs](http://twitter.com/fffabs)
+<!--
+
+## 被引用信息
+
+使用了我的模板并写明来源的人：   
+
+* [dreamholy](http://dreamholy.github.io/)
+
+没有注明来源的人：
+
+* [yangshuailing](http://yangshuailing.github.io/com/)
+* [huapu728](http://huapu728.github.io/)
+* [greatbuger](http://greatbuger.github.io/) 
+
+
+-->
+
+

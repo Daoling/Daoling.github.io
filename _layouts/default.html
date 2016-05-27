@@ -1,37 +1,52 @@
 <!DOCTYPE html>
 <html>
+
   {% include head.html %}
+
+ <!--  <body data-spy="scroll" data-target="#myAffix"> -->
   <body>
+
     {% include header.html %}
-      <div class="wrapper">
-        <div class="page-content">
-          {{ content }}
-        </div>
-        {% include footer.html %}
+
+
+    <div id="main" class="container main">
+      {{ content }}
     </div>
 
-    <script src="//cdn.jsdelivr.net/headroomjs/0.5.0/headroom.min.js"></script>
-    <script type="text/javascript">
-      var el = document.querySelector(".header-container");
-      var headroom  = new Headroom(el, {
-        "offset": 205,
-        "tolerance": 5
+    
+    <div id="top" data-toggle="tooltip" data-placement="left" title="回到顶部">
+      <a href="javascript:;">
+        <div class="arrow"></div>
+        <div class="stick"></div>
+      </a>
+    </div>
+
+    {% include footer.html %}
+
+
+    <!-- 多说公共JS代码 start (一个网页只需插入一次) -->
+  <script type="text/javascript">
+    var duoshuoQuery = {short_name:"hygblog"};
+    (function() {
+      var ds = document.createElement('script');
+      ds.type = 'text/javascript';ds.async = true;
+      ds.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') + '//static.duoshuo.com/embed.js';
+      ds.charset = 'UTF-8';
+      (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(ds);
+    })();
+  </script>
+<!-- 多说公共JS代码 end -->
+
+<!-- 在新窗口中打开 -->
+  <script type="text/javascript">
+    function addBlankTargetForLinks () {
+      $('a[href^="http"]').each(function(){
+          $(this).attr('target', '_blank');
       });
-      headroom.init();
-    </script>
-
-
-    <!-- Twitter Shizzle -->
-    <script type="text/javascript">
-    window.twttr = (function (d, s, id) {
-      var t, js, fjs = d.getElementsByTagName(s)[0];
-      if (d.getElementById(id)) return;
-      js = d.createElement(s); js.id = id;
-      js.src= "https://platform.twitter.com/widgets.js";
-      fjs.parentNode.insertBefore(js, fjs);
-      return window.twttr || (t = { _e: [], ready: function (f) { t._e.push(f) } });
-    }(document, "script", "twitter-wjs"));
-    </script>
-
+    }
+    $(document).bind('DOMNodeInserted', function(event) {
+      addBlankTargetForLinks();
+    });
+  </script>
   </body>
 </html>

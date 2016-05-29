@@ -19,8 +19,11 @@ excerpt: California Institute
 * terminal:
 * stem:
 * bowl:
-* counterspace:
+* counterspace: 留白
 * spur:
+
+---
+
 
 ## 字母剖析()
 
@@ -32,6 +35,8 @@ excerpt: California Institute
 * bowl:
 * counterspace:
 * spur:
+
+---
 
 有各种各样的滤镜效果，可以直接调节参数观察变化。
 

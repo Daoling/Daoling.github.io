@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "排版术语"
+title:  "排版术语 - The Lexicon of letters"
 date:   2016-05-28 14:06:05
 categories: 每日一课
 excerpt: California Institute
@@ -22,7 +22,7 @@ excerpt: California Institute
 * counterspace:
 * spur:
 
-## 字母剖析(The Lexicon of letters)
+## 字母剖析()
 
 ### 单字母a
 

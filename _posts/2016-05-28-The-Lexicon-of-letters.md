@@ -25,7 +25,7 @@ excerpt: California Institute
 ---
 
 
-## 字母剖析()
+## 字母剖析
 
 ### 单字母a
 
@@ -38,12 +38,6 @@ excerpt: California Institute
 
 ---
 
-有各种各样的滤镜效果，可以直接调节参数观察变化。
 
-值得一提的是，这个网站还有很多其他 css 生成器。
-
-比如：Border Image, Border Radius, Box Shadow, Filter Effects, Multi-Column, Outline Border, Overflow(x,y), RGBa, Text Rotate, Text Shadow, Textarea Resize, Transform
-
-* 可以访问这里去使用这些 css 生成器：[CSS Generators](http://www.cssreflex.com/css-generators/)
 
 ---

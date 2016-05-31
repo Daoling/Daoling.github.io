@@ -17,18 +17,18 @@ excerpt: Fundamentals of Graphic Design Week 2 by California Institute of the Ar
 
 ---
 
-### 一.专业词汇基础
+## 一.专业词汇基础
 
-## 1.字母
+### 1.字母
 ![Filter Effects](http://o7y3ots7t.bkt.clouddn.com/2016%2F05%2F29%2Fletterforms.png)
 
 
-## 2.一个单词  
+### 2.一个单词  
 
 ![Filter Effects](http://o7y3ots7t.bkt.clouddn.com/2016/05/29/word.png)
 
 
-## 3.两个单词  
+### 3.两个单词  
 ![Filter Effects](http://o7y3ots7t.bkt.clouddn.com/2016%2F05%2F29%2Ftwo%20words.png)
 
 > 我们衡量一个字体的单位是point。这要追溯到最早印刷年代每一个字母都是雕刻在一块金属底版上。如下图：
@@ -38,13 +38,13 @@ excerpt: Fundamentals of Graphic Design Week 2 by California Institute of the Ar
 * 72 points = 1 inch
 
 
-## 4.句子  
+### 4.句子  
 
 > 每两行base line之间的距离叫leading，如图：
 
 ![Filter Effects](http://o7y3ots7t.bkt.clouddn.com/2016/05/29/Leading.png)
 
-## 5.段落
+### 5.段落
 
 > 主要是两种：Justified Text 和 Range Left Text。 如图：
 
@@ -53,25 +53,25 @@ excerpt: Fundamentals of Graphic Design Week 2 by California Institute of the Ar
 
 ---
 
-### 二.字体分类基础
+## 二.字体分类基础
 
 > 字体按书写风格来分，主要可以分为两大类。Serif 和 Sans Serif。如图：
 
 ![Filter Effects](http://o7y3ots7t.bkt.clouddn.com/2016/05/29/two%20type.png)
 
 
-## 1.Serif
+### 1.Serif
 > Serif翻译成中文是：衬线。所以大家可以看到，Serif的字体，更贴近传统的印刻技术所留下的笔锋。如下图，可以细分为四类。
 
 ![Filter Effects](http://o7y3ots7t.bkt.clouddn.com/2016/05/29/Serif.png)
 
-## 2.Sans Serif
+### 2.Sans Serif
 > Sans Serif可以细分成三种，相对于Serif，这种无衬线的字体，取消了传统印刷过程中留下的印记，给人一种更现代，更轻松的感觉。
 
 ![Filter Effects](http://o7y3ots7t.bkt.clouddn.com/2016/05/29/Sans%20Serif.png)
 
 ---
 
-### 总结
+## 总结
 
 > 这篇文章可以作为查询词典供大家在看原文设计书籍、课程的时候使用。

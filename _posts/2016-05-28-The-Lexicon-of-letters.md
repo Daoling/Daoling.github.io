@@ -9,6 +9,9 @@ excerpt: Fundamentals of Graphic Design Week 2 by California Institute of the Ar
 * content
 {:toc}
 
+---
+
+
 我们在做设计的过程当中，如果需要传达更多的信息，不可避免地会遇到文字排版。这里我整理了在英文排版过程中经常会遇到的一些基础知识。
 
 * 参考文献：[加州艺术学院](https://art.calarts.edu/)的[图像设计基础课程](https://www.coursera.org/learn/fundamentals-of-graphic-design/)

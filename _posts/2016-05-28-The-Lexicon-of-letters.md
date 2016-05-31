@@ -17,7 +17,7 @@ excerpt: Fundamentals of Graphic Design Week 2 by California Institute of the Ar
 
 ---
 
-## 一.专业词汇基础
+## 专业词汇基础
 
 ### 字母
 ![Filter Effects](http://o7y3ots7t.bkt.clouddn.com/2016%2F05%2F29%2Fletterforms.png)
@@ -53,7 +53,7 @@ excerpt: Fundamentals of Graphic Design Week 2 by California Institute of the Ar
 
 ---
 
-## 二.字体分类基础
+## 字体分类基础
 
 > 字体按书写风格来分，主要可以分为两大类。Serif 和 Sans Serif。如图：
 

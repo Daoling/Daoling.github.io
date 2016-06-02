@@ -1,10 +1,10 @@
 ---
 layout: post
 title:  "如何从两个角度来重新审视你的排版"
-date:   2016-05-28 23:06:05
+date:   2016-05-30 23:06:05
 categories: 每日一课 人文艺术
 excerpt: Fundamentals of Graphic Design Week 2 by California Institute of the Arts
----
+--- 
 
 * content
 {:toc}

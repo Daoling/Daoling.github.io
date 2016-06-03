@@ -86,7 +86,7 @@ Museum这个单词是不是要出现在不同尺寸的手册，广告，展示�
 
 ![Filter Effects](http://o7y3ots7t.bkt.clouddn.com/2016/06/02/Screen%20Shot%202016-06-03%20at%2012.22.01%20AM.png)
 
-突然觉得当初给ECOnnY取名字的时候就有这方面的天赋了～此处软广告，跟小伙伴一起做的[有趣的人与自然沟通项目](www.econny.cn)。
+突然觉得当初给ECOnnY取名字的时候就有这方面的天赋了～此处软广告，跟小伙伴一起做的[有趣的人与自然沟通项目](http://www.econny.cn)。
 
 
 ---

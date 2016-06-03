@@ -20,16 +20,20 @@ excerpt: Fundamentals of Graphic Design Week 2 by California Institute of the Ar
 
 悬念，你能区分左边的和右边的Museum的区别吗？
 
+![Filter Effects](http://o7y3ots7t.bkt.clouddn.com/2016/06/02/Screen%20Shot%202016-06-02%20at%2011.09.12%20PM.png)
+
 ---
 ## 功能
 
 在图像设计基础的课程中，一直不停地出现的单词有两个，Denotation和Connotation。对他们的具体解释可以参考wiki pedia中的这张图。我把他们翻译成“直抒胸臆”和“想入翩翩”。
 
+![Filter Effects](http://o7y3ots7t.bkt.clouddn.com/2016/05/29/Screen%20Shot%202016-06-02%20at%208.53.18%20PM.png)
+
 我们从“直抒胸臆”的功能入手。
 > 拿Museum举个例子，我们要依次考虑这些问题。
 
 ### 年代
-这个博物馆是传统的还是现代的？如果是传统的，选择Serif［］。现在的，则选择San serif[]。
+这个博物馆是传统的还是现代的？如果是传统的，选择[Serif](https://art.calarts.edu/)［］。现在的，则选择San serif[]。
 
 
 ### 可扩展性

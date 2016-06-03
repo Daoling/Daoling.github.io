@@ -51,7 +51,7 @@ excerpt: Fundamentals of Graphic Design Week 2 by California Institute of the Ar
 
 > 主要是两种：Justified Text 和 Range Left Text。 如图：
 
-![Filter Effects](http://o7y3ots7t.bkt.clouddn.com/%20term%20for%20the%20setting%20of%20a%20block%20of%20text.png)
+![Filter Effects](http://o7y3ots7t.bkt.clouddn.com/2016%2F05%2F29%2Fterm%20for%20the%20setting%20of%20a%20block%20of%20text.png)
 
 
 ---

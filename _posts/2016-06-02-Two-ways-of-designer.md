@@ -11,6 +11,7 @@ excerpt: Fundamentals of Graphic Design Week 2 by California Institute of the Ar
 
 ---
 
+> 认知： Denotation/Connotation
 
 就像学厨艺一样，想成为一个一流的厨师，首先要有能力去品尝出各种食物的细微不同。设计中也是一样的，分辨排版中的细微不同，是成为优秀设计师的第一步。这篇文章将告诉你，一个设计师分析排版的整个思考过程。
 

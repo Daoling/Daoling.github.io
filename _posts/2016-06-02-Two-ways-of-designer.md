@@ -11,7 +11,7 @@ excerpt: Fundamentals of Graphic Design Week 2 by California Institute of the Ar
 
 ---
 
-> 新认知get√ ： Denotation/Connotation
+> 认知get√ ： Denotation/Connotation
 
 ---
 

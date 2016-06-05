@@ -11,7 +11,7 @@ excerpt: Fundamentals of Graphic Design Week 2 by California Institute of the Ar
 
 ---
 
-> 认知： 英文排版的专业词汇
+> 新认知get√ ： 英文排版的专业词汇
 
 ---
 

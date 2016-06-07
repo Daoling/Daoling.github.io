@@ -2,7 +2,7 @@
 layout: post
 title:  "英文排版基础"
 date:   2016-05-28 14:06:05
-categories: 每日一课 人文艺术
+categories: 每日一课 艺术
 excerpt: Fundamentals of Graphic Design Week 2 by California Institute of the Arts
 ---
 

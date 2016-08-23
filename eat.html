@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta content="What to Eat Today" name="description">
+  <meta content="Eat, Lunch, Food" name="keywords">
+  <meta content="今天吃要什麼？" property="og:title">
+  <meta content="What to Eat Today" property="og:description">
+  <meta content="http://farm3.static.flickr.com/2439/3622044656_08b2a2dc22_o.png" property="og:image">
+  <meta content="http://tomin.github.com/eat/" property="og:url">
+  <meta property="fb:app_id" content="70344959780"/>
+  <title>What to Eat</title>
+  <style>
+	body {
+		margin: 0;
+	}
+	#play, footer {
+		margin:0 auto; 
+		width: 100%; 
+		max-width: 470px;
+	}
+  </style>
+</head>
+<body>
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/zh_TW/sdk.js#xfbml=1&version=v2.5&appId=1388106518114621";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+<div id="play">
+	<video id="foodmv" autoplay="true" preload="auto" loop="true" height="470" width="470">
+		<source src="media/eat.mp4" type="video/mp4">
+	</video>
+	<div id="ios" style="display:none">
+		<h4>請點擊上方播放按鈕，並在播放過程中按暫停</h4>
+	</div>
+	<!--
+	See <a href="https://media.giphy.com/media/3o8dpayAdL7diuc6oo/giphy.gif">the origin gif</a>.
+	-->
+</div>
+<footer>
+	<span class="social-button">
+		<span class="fb-like" data-href="http://tomin.github.io/eat/" data-layout="standard" data-action="like" data-show-faces="true" data-share="true" style="vertical-align:top;zoom:1;*display:inline">.</span>
+	</span>		
+	
+	<span class="social-button">
+		<iframe src="http://ghbtns.com/github-btn.html?user=tomin&repo=eat&type=watch&count=true" allowtransparency="true" frameborder="0" scrolling="0" width="140" height="20"></iframe>
+	</span>	
+</footer>
+
+<script>
+	var $= function(id) {
+		return document.getElementById(id);
+		},
+		food = $('foodmv'),
+		isPause = false,
+		iOS = /iPad|iPhone|iPod/.test(navigator.platform);
+
+	$('play').onclick = function(){
+		if (isPause) {
+			food.play();     
+		} else {
+			food.pause();     
+		}
+	}
+	food.onpause = function(){
+		isPause = true;
+	}
+	food.onplay = function(){
+		isPause = false;  
+	}
+	if (iOS) {
+		$('ios').style.display = 'block';
+	}
+
+	//ga
+	(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+	ga('create', 'UA-46902119-5', 'auto');
+	ga('send', 'pageview');
+</script>
+</body>
+</html>

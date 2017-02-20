@@ -1,64 +1,31 @@
 ---
-layout: default
+layout: index
+title: Jekyll Bootstrap3
+tagline: Material design for Github-pages
 ---
-<div id="index" class="row">
-  <div class="col-sm-9">
-    <div class="post-area">
-      <!-- small button -->
-     <!--  <p class="pull-right visible-xs">
-       <button>toggle</button>
-     </p> -->
-      <div class="post-list-header">
-        最新文章
-      </div>
-      <div class="post-list-body">
+{% include JB/setup %}
 
-        <div class="all-posts" post-cate="All">
-          {% for post in site.posts %}
-            <a class="post-list-item" href="{{ post.url | prepend: site.baseurl }}">
-              <h2>
-              {{ post.title }}
-              </h2>
-              <span class="">{{ post.date | date: "%b %-d, %Y" }}</span>
-            </a>
-          {% endfor %}
-        </div>
-        <!-- <div class="posts-in-categories"> -->
-        {% for category in site.categories %}
-          <div post-cate="{{category | first}}">
-            {% for posts in category  %}
-              {% for post in posts %}
-                {% if post.url %}
-                  <a href="{{ post.url }}" class="post-list-item">
-                    <h2>
-                    {{ post.title }}
-                    </h2>
-                    <span class="">{{ post.date | date: "%b %-d, %Y" }}</span>
-                  </a>
-                {% endif %}
-              {% endfor %}
-            {% endfor %}
-          </div>
-        {% endfor %}
 
-        <!-- </div> -->
-      </div>
-    </div>
-  </div>
-  <div class="col-sm-3">
-    <div class="shadow-corner-curl hidden-xs">
-      <div class="categories-list-header">
-        Categories
-      </div>
+<!-- Change the "about information" contained in /_includes/themes/bootstrap/index.html  -->
 
-      <a href="javascript:;" class="categories-list-item" cate="All">
-        All<span class="my-badge"> {{site.categories | size}}</span>
-      </a>
-      {% for category in site.categories %}
-        <a href="javascript:;" class="categories-list-item" cate="{{ category | first }}">
-          {{ category | first }} <span class="my-badge">{{ category | last | size }}</span>
-        </a>
-      {% endfor %}
-    </div>
-  </div>
-</div>
+  {% for post in site.posts %}
+
+                <!-- Blog Post Template on Index page -->
+                <h2>
+                    <a href="{{ BASE_PATH }}{{ post.url }}">{{ post.title }}</a>
+                </h2>
+                <p class="lead">
+                    Tagged under: {{post.tags | array_to_sentence_string}}
+                </p>
+                <p><span class="glyphicon glyphicon-time"></span> Posted on {{ post.date | date_to_string }}</p>
+                <!-- <hr>
+                <img class="img-responsive" src="http://placehold.it/900x300" alt=""> -->
+                <hr>
+		{{ post.excerpt }}                
+                <a class="btn btn-primary" href="{{ BASE_PATH }}{{ post.url }}">Read More <span class="glyphicon glyphicon-chevron-right"></span></a>
+
+                <hr>
+
+  {% endfor %}
+
+
